@@ -1,0 +1,109 @@
+body {
+	background-color: #333;
+	color: #fff;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #555;
+	padding: 10px;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+section#products {
+	flex-basis: 70%;
+}
+
+section#products ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+section#products li {
+	flex-basis: 30%;
+	margin-bottom: 20px;
+}
+
+section#products a {
+	color: #fff;
+	text-decoration: none;
+}
+
+section#products h3 {
+	margin: 10px 0;
+}
+
+section#cart {
+	flex-basis: 25%;
+	background-color: #555;
+	padding: 20px;
+}
+
+section#cart h2 {
+	margin-bottom: 20px;
+}
+
+section#cart ul#cart-items {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+section#cart ul#cart-items li {
+	margin-bottom: 10px;
+}
+
+section#cart button {
+	background-color: #fff;
+	color: #555;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #555;
+	padding: 10px;
+	text-align: center;
+}
+nav ul li button{
+	background-color: #555;
+	color: white; 
+	padding: 10px 20px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+
+}
+nav ul li button:hover{
+	background-color: #333;
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
