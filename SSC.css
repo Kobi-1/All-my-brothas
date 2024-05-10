@@ -1,30 +1,15 @@
+
 body {
 	background-color: #333;
-	color: #fff;
 	font-family: Arial, sans-serif;
-}
 
+}
 header {
 	background-color: #555;
 	padding: 10px;
 	text-align: center;
 }
 
-nav ul {
-	list-style-type: none;
-	
-	padding: 0;
-}
-
-nav ul li {
-	display: inline;
-	margin-right: 10px;
-}
-
-nav ul li a {
-	color: #fff;
-	text-decoration: none;
-}
 
 main {
 	display: flex;
@@ -79,31 +64,53 @@ section#cart ul#cart-items li {
 	margin-bottom: 10px;
 }
 
-section#cart button {
-	background-color: #fff;
-	color: #555;
-	border: none;
-	padding: 10px;
-	cursor: pointer;
-}
+
 
 footer {
 	background-color: #555;
 	padding: 10px;
 	text-align: center;
 }
-nav ul li button{
-	background-color: #555;
-	color: white; 
-	padding: 10px 20px;
-	text-align: center;
-	display: inline-block;
-	font-size: 16px;
-	transition-duration: 0.4s;
-
+.Button {
+  appearance: none;
+  background-color: #222;
+  border: 2px solid #222;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  touch-action: manipulation;
+  width:120px;
+  will-change: transform;
 }
-nav ul li button:hover{
-	background-color: #333;
-	color: white;
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+.Button:disabled {
+  pointer-events: none;
+}
+
+.Button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+nav ul {
+  display: flex;
+  justify-content:left;
 }

@@ -32,5 +32,5 @@ checkoutButton.addEventListener('click', () => {
 	updateCart();
 });
 function contact(){
-	window.location.href = "contact.html";
+	window.location.href = "Contact.html";
   }
